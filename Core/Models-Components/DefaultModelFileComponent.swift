@@ -130,10 +130,10 @@ extension DefaultModelFileComponent {
   }
 
   func genPrimitiveVariableDeclaration(_ name: String, _ type: String) -> String {
-    if type == VariableType.Bool.rawValue {
-      return "public var \(name): \(type)? = false"
-    }
-    return "public var \(name): \(type)?"
+//    if type == VariableType.Bool.rawValue {
+//      return "public var \(name): \(type)? = false"
+//    }
+    return "public let \(name): \(type)?"
   }
 
   func genDescriptionForPrimitive(_ name: String, _ type: String, _ constantName: String) -> String {

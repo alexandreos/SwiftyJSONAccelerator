@@ -108,6 +108,11 @@
 		93F174451BD0707D007E7DFC /* SJEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F174441BD0707D007E7DFC /* SJEditorViewController.swift */; };
 		93F174471BD0707D007E7DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F174461BD0707D007E7DFC /* Assets.xcassets */; };
 		93F174601BD070AA007E7DFC /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F1745F1BD070AA007E7DFC /* JSONHelper.swift */; };
+		ACAFBE8B1F8DE3410006ABB3 /* ImmutableObjectMapperModelFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFBE8A1F8DE3410006ABB3 /* ImmutableObjectMapperModelFile.swift */; };
+		ACAFBE8C1F8DE34D0006ABB3 /* ImmutableObjectMapperModelFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFBE8A1F8DE3410006ABB3 /* ImmutableObjectMapperModelFile.swift */; };
+		ACAFBE8D1F8DE34D0006ABB3 /* ImmutableObjectMapperModelFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAFBE8A1F8DE3410006ABB3 /* ImmutableObjectMapperModelFile.swift */; };
+		ACAFBE8F1F8DE3C20006ABB3 /* ImmutableObjectMapperTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACAFBE8E1F8DE3C20006ABB3 /* ImmutableObjectMapperTemplate.txt */; };
+		ACAFBE901F8DE3CC0006ABB3 /* ImmutableObjectMapperTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = ACAFBE8E1F8DE3C20006ABB3 /* ImmutableObjectMapperTemplate.txt */; };
 		C667011B1BDCABCE009BA254 /* SwiftyJSONTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = C667011A1BDCABCE009BA254 /* SwiftyJSONTemplate.txt */; };
 		C667011D1BDCAF23009BA254 /* ObjectMapperTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = C667011C1BDCAF23009BA254 /* ObjectMapperTemplate.txt */; };
 		C667011F1BDCBE1F009BA254 /* NSCodingTemplate.txt in Resources */ = {isa = PBXBuildFile; fileRef = C667011E1BDCBE1F009BA254 /* NSCodingTemplate.txt */; };
@@ -186,6 +191,8 @@
 		93F174501BD0707D007E7DFC /* SwiftyJSONAccelerator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyJSONAccelerator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F174561BD0707D007E7DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93F1745F1BD070AA007E7DFC /* JSONHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
+		ACAFBE8A1F8DE3410006ABB3 /* ImmutableObjectMapperModelFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmutableObjectMapperModelFile.swift; sourceTree = "<group>"; };
+		ACAFBE8E1F8DE3C20006ABB3 /* ImmutableObjectMapperTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ImmutableObjectMapperTemplate.txt; sourceTree = "<group>"; };
 		C667011A1BDCABCE009BA254 /* SwiftyJSONTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftyJSONTemplate.txt; sourceTree = "<group>"; };
 		C667011C1BDCAF23009BA254 /* ObjectMapperTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ObjectMapperTemplate.txt; sourceTree = "<group>"; };
 		C667011E1BDCBE1F009BA254 /* NSCodingTemplate.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NSCodingTemplate.txt; sourceTree = "<group>"; };
@@ -381,6 +388,7 @@
 				9327F2871DF4BCA70002BE40 /* MarshalModelFile.swift */,
 				93F1593F1CFF96E700175636 /* ObjectMapperModelFile.swift */,
 				93F1593D1CFF969900175636 /* SwiftyJSONModelFile.swift */,
+				ACAFBE8A1F8DE3410006ABB3 /* ImmutableObjectMapperModelFile.swift */,
 			);
 			path = "Library-Extensions";
 			sourceTree = "<group>";
@@ -461,6 +469,7 @@
 				9327F2891DF4BD540002BE40 /* MarshalTemplate.txt */,
 				C667011C1BDCAF23009BA254 /* ObjectMapperTemplate.txt */,
 				C667011A1BDCABCE009BA254 /* SwiftyJSONTemplate.txt */,
+				ACAFBE8E1F8DE3C20006ABB3 /* ImmutableObjectMapperTemplate.txt */,
 			);
 			path = "Library-Extension-Templates";
 			sourceTree = "<group>";
@@ -537,7 +546,7 @@
 					};
 					93F1743E1BD0707D007E7DFC = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = UYGU8PDBPS;
+						DevelopmentTeam = 98HGASR555;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -579,6 +588,7 @@
 				C667011F1BDCBE1F009BA254 /* NSCodingTemplate.txt in Resources */,
 				93F174471BD0707D007E7DFC /* Assets.xcassets in Resources */,
 				C667011D1BDCAF23009BA254 /* ObjectMapperTemplate.txt in Resources */,
+				ACAFBE8F1F8DE3C20006ABB3 /* ImmutableObjectMapperTemplate.txt in Resources */,
 				9341A14F1BD6E7290048CE2C /* BaseTemplate.txt in Resources */,
 				9327F28A1DF4BD540002BE40 /* MarshalTemplate.txt in Resources */,
 			);
@@ -593,6 +603,7 @@
 				93D850E31D00D2F60023D573 /* SwiftyJSONTemplate.txt in Resources */,
 				934E61A51E10587F00B7601B /* test_config.json in Resources */,
 				934E61A31E10587F00B7601B /* album.json in Resources */,
+				ACAFBE901F8DE3CC0006ABB3 /* ImmutableObjectMapperTemplate.txt in Resources */,
 				934E61A71E10587F00B7601B /* user.json in Resources */,
 				93D850F71D00D7C80023D573 /* TestJSONFile.sample in Resources */,
 				93D850E01D00D2F60023D573 /* BaseTemplate.txt in Resources */,
@@ -660,6 +671,7 @@
 				9372454A1E12ED36005387E8 /* LightweightCommand.swift in Sources */,
 				937245411E12ED36005387E8 /* CLI.swift in Sources */,
 				934F09F41E12DC1000D983FF /* FileGenerator.swift in Sources */,
+				ACAFBE8D1F8DE34D0006ABB3 /* ImmutableObjectMapperModelFile.swift in Sources */,
 				934F09E11E12D38E00D983FF /* String+Helpers.swift in Sources */,
 				937245441E12ED36005387E8 /* CommandArguments.swift in Sources */,
 				934F09EA1E12D3B300D983FF /* Constants.swift in Sources */,
@@ -674,6 +686,7 @@
 				934E61991E0EA20000B7601B /* MultipleModelGenerator.swift in Sources */,
 				93CDE7721BD1A00B00B5B234 /* SJTextView.swift in Sources */,
 				937245551E12ED4D005387E8 /* SwiftyJSON.swift in Sources */,
+				ACAFBE8B1F8DE3410006ABB3 /* ImmutableObjectMapperModelFile.swift in Sources */,
 				93F174601BD070AA007E7DFC /* JSONHelper.swift in Sources */,
 				9341A14A1BD6E5FE0048CE2C /* ModelGenerator.swift in Sources */,
 				934F09F61E12DC4B00D983FF /* FileGeneratorExtension.swift in Sources */,
@@ -701,6 +714,7 @@
 			files = (
 				93D850D91D00D2070023D573 /* NameGenerator.swift in Sources */,
 				930462B61D31133B00FE61A6 /* FileGenerator.swift in Sources */,
+				ACAFBE8C1F8DE34D0006ABB3 /* ImmutableObjectMapperModelFile.swift in Sources */,
 				93D850E61D00D3020023D573 /* Constants.swift in Sources */,
 				93D850F01D00D3070023D573 /* DefaultModelFileComponent.swift in Sources */,
 				93D850EB1D00D3070023D573 /* ModelFile.swift in Sources */,
@@ -867,7 +881,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = UYGU8PDBPS;
+				DEVELOPMENT_TEAM = 98HGASR555;
 				INFOPLIST_FILE = SwiftyJSONAccelerator/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -884,7 +898,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = UYGU8PDBPS;
+				DEVELOPMENT_TEAM = 98HGASR555;
 				INFOPLIST_FILE = SwiftyJSONAccelerator/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;

@@ -51,6 +51,7 @@ enum ConstructType: String {
 enum JSONMappingLibrary: String {
   case SwiftyJSON
   case ObjectMapper
+  case ImmutableObjectMapper
   case Marshal
 }
 

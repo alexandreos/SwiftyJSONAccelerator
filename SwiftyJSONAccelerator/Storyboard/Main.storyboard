@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="XfG-lQ-9wD">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16G29" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="XfG-lQ-9wD">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
-        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -422,6 +421,7 @@
                                             <menuItem title="SwiftyJSON (Default)" hidden="YES" id="0QP-u9-O6V"/>
                                             <menuItem title="SwiftyJSON" id="mkQ-rW-3gF"/>
                                             <menuItem title="ObjectMapper" id="FPc-o9-hXy"/>
+                                            <menuItem title="ImmutableObjectMapper" id="weh-Lr-f66"/>
                                             <menuItem title="Marshal" id="7Q8-u2-Yfm"/>
                                         </items>
                                     </menu>
